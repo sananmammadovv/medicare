@@ -1,0 +1,38 @@
+@mixin map-mar-pad {
+    margin: 15px 30px;
+    padding-bottom: 10px;
+}
+// Flex
+@mixin displayFlexJustifayBettwen {
+    display: flex;
+    justify-content: space-between;
+}
+@mixin displayFlexAround {
+    display: flex;
+    justify-content: space-around;
+}
+
+// position
+@mixin position-absolute {
+    position: absolute;
+}
+@mixin alignCenter {
+    text-align: center;
+    
+}
+// Header ucun
+@mixin header-mixin {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 30px 30px;
+}
+
+// fonts
+@mixin font-Montserrat {
+    font-family: Montserrat;
+    
+}
+// none
+@mixin text-dec {
+    text-decoration: none;
+}
